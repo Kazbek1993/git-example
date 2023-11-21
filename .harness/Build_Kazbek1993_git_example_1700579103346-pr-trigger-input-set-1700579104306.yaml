@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Kazbek1993_git_example_1700579103346-pr-trigger-input-set
+  identifier: Build_Kazbek1993_git_example_1700579103346prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Kazbek1993_git_example_1700579103346
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
